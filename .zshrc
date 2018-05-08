@@ -94,12 +94,14 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias l='ls -la'
 alias sz='source ~/.zshrc'
+alias ll='ls -all'
 
 # projects
 alias project="cd ~/projects/$CURRENT_PROJECT"
 alias gov="cd $VIRTUAL_ENV/bin"
 alias journal="cd ~/projects/goals"
-alias dm="cd ~/dualmode/FreeRTOSV8.1.2/FreeRTOS/"
+alias gotodm="cd ~/dualmode/FreeRTOSV8.1.2/FreeRTOS/"
+
 # git stuff
 alias startover='git status | grep "modified" | awk "{print \$2}" | xargs -I{} git checkout -- {}'
 
