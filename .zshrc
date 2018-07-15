@@ -122,7 +122,7 @@ alias collect="cd ~/projects/$CURRENT_PROJECT && python manage.py collectstatic"
 alias dotfiles="cd ~/dotfiles && git status"
 alias editzshrc="vim ~/dotfiles/.zshrc"
 alias editvimrc="vim ~/dotfiles/.vimrc"
-alias edittmux="vim ~/dotfiles/tmux.config"
+alias edittmux="vim ~/dotfiles/tmux.conf"
 
 # heroku stuff
 alias hl="heroku login"
