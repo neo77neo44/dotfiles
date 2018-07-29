@@ -26,5 +26,6 @@
 	add-del = !git rm $(git ls-files --deleted)
 	add-mod = !git add $(git ls-files --modified)
         rev-mod = !git co $(git ls-files --modified)
+	adog = log --all --decorate --oneline --graph
 [push]
     default = simple
