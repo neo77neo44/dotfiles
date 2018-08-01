@@ -23,3 +23,5 @@ sudo curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 sudo apt-get -y install tmux
+
+#sed  "s/\r//" dos_file  > dos_file_linux
