@@ -122,3 +122,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # added by Anaconda3 4.3.1 installer
 export PATH="/home/finn/anaconda3/bin:$PATH"
+alias gcc="color_compile gcc"
+alias g++="color_compile g++"
+alias make="color_compile make"

@@ -24,4 +24,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 sudo apt-get -y install tmux
 
+sudo apt-get -y install tofrodos
+
+sudo apt-get -y install meld
+
 #sed  "s/\r//" dos_file  > dos_file_linux
