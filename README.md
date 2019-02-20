@@ -11,3 +11,6 @@ cd fonts
 cd ..
 
 rm -rf fonts
+
+# install ncurses 
+sudo apt-get install libncurses5-dev
