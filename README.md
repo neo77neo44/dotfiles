@@ -17,4 +17,5 @@ sudo apt-get install libncurses5-dev
 
 # install java
 sudo apt install default-jdk
+
 sudo apt install default-jre
